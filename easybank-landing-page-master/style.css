@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+body {
+}
+.navigation {
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  z-index: 1000;
+}
+.menuItems {
+  position: absolute;
+  top: 5rem;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: none;
+  z-index: 100;
+  position: fixed;
+}
+.menuItems ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  text-align: center;
+}
+.menuItems ul li a {
+  text-decoration: none;
+  color: hsl(233, 26%, 24%);
+  font-weight: 600;
+}
+.mainSection {
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  background-image: url('images/bg-intro-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+.mockups {
+  z-index: 100;
+  background-image: url('images/image-mockups.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mainTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+ justify-content: center;
+ padding: 10px 10px 50px 10px;
+ background-color: white;
+}
+.mainTitle h1 {
+  font-size: 40px;
+  text-align: center;
+  color: hsl(233, 26%, 24%);
+  font-weight: 500;
+}
+.mainTitle p {
+  text-align: center;
+  color: hsl(233, 8%, 62%);
+}
+.requestBtn {
+  all: unset;
+  padding: 0.7rem 2rem;
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.reasonsWhy {
+  width: 100vw;
+  height: auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  background-color: hsl(220, 16%, 96%);
+}
+.reasonsLabel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.reasonsLabel h1 {
+  font-size: 35px;
+  text-align: center;
+  color: hsl(233, 26%, 24%);
+  font-weight: 500;
+}
+.reasonsLabel p {
+  text-align: center;
+  color: hsl(233, 8%, 62%);
+  line-height: 25px;
+}
+.reasonTitle {
+  font-size: 20px;
+  text-align: center;
+  color: hsl(233, 26%, 24%);
+  font-weight: 500;
+}
+.reasonDesc {
+  text-align: center;
+  color: hsl(233, 8%, 62%);
+  line-height: 25px;
+}
+.reasons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.3rem;
+}
+.reason {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+}
+.articles, .allArticles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 20px;
+  gap: 20px;
+}
+.articleImage {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.articleImage img {
+  width: 100%;
+  height: 100%;
+}
+.articlesBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.articleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20px;
+}
+.author {
+  font-size: 10px;
+  font-weight: 600;
+  color: hsl(233, 8%, 62%)
+}
+.artcileDescription {
+  color: hsl(233, 8%, 62%);
+  font-size: 14px;
+}
+.artcileLabel {
+  font-weight: 500;
+  font-size: 20px;
+  color: hsl(233, 26%, 24%)
+}
+.articlesHeading {
+  color: hsl(233, 26%, 24%);
+  text-align: center;
+
+}
+.footer {
+  background-color: hsl(233, 26%, 24%);
+  width: 100vw;
+  height: 300px;
+  height: auto;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.articlesHeading h1 {
+  font-weight: 500;
+}
+.iconSocial {
+  width: 25px;
+  height: 25px;
+}
+.iconSocialimg {
+  width: 100%;
+  height: auto;
+}
+.footerLogoAndSocialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.socialMedia {
+  display: flex;
+  gap: 15px;
+}
+.additionaInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.additionaInfo ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.additionaInfo ul li {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+.footerRequestBtn {
+  all: unset;
+  padding: 0.7rem 0.8rem;
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-radius: 20px;
+  width: 150px;
+  color: white;
+  text-align: center;
+}
+.btnAndCopyrights {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.copyRights{
+  color: hsl(233, 8%, 62%);
+  font-size: 15px;
+}
+.menuBtn {
+  display: flex;
+}
+.headerBtn {
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .menuItems {
+    display: flex;
+    position: relative;
+    height: auto;
+    top: 0px;
+    background-color: transparent;
+  }
+  .menuItems ul {
+    flex-direction: row;
+  }
+  .menuItems ul li a{
+    padding-bottom: 10px;
+  }
+  .menuItems ul li a:hover{
+    border-bottom: 2px solid lightgreen;
+  }
+  .menuBtn {
+    display: none;
+  }
+  .headerBtn {
+    display: flex;
+    height: 30px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0;
+  }
+  .mainSection {
+    flex-direction: row-reverse;
+    gap: 60px;
+  }
+  .banner {
+    height: 80vh;
+    width: 50%;
+    background-image: url('images/bg-intro-desktop.svg');
+    background-size: contain;
+
+  }
+  .mockups {
+    z-index: 200;
+    position: absolute;
+  }
+  .mainTitle {
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+  .mainTitle p {
+    text-align: left;
+    max-width: 300px;
+  }
+  .mainTitle h1 {
+    font-size: 28px;
+    max-width: 200px;
+    text-align: left;
+  }
+  .reasonsWhy, .allArticles, .articles{
+    align-items: flex-start;
+  }
+  .reasons, .allArticles{
+   flex-direction: row;
+  }
+  .reason, .reasonsLabel, .articlesBox{
+    align-items: flex-start;
+  }
+  .articlesHeading h1{
+    font-size: 23px;
+  }
+  .reasonsLabel {
+    gap: 10px;
+  }
+  .reasonsLabel h1 {
+    font-size: 20px;
+  }
+  .reason p {
+    text-align: left;
+  }
+  .footer {
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    height: 180px;
+  }
+  .additionaInfo {
+    flex-direction: row;
+    gap: 50px;
+  }
+  .additionaInfo ul {
+    align-items: flex-start;
+  }
+}
