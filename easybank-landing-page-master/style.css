@@ -313,6 +313,7 @@ body {
     flex-direction: row-reverse;
     gap: 60px;
     justify-content: space-between;
+    padding-left: 20px;
   }
   .banner {
     height: 80vh;
