@@ -312,6 +312,7 @@ body {
   .mainSection {
     flex-direction: row-reverse;
     gap: 60px;
+    justify-content: space-between;
   }
   .banner {
     height: 80vh;
